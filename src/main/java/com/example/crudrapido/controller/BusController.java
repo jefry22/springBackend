@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/bus")
-@CrossOrigin("https://civa-frontend-mw85lluoa-jeffersons-projects-8c7f5f46.vercel.app/")
+@CrossOrigin("https://civa-frontend.vercel.app/")
 public class BusController {
     @Autowired
     private BusRepository busRepository;
